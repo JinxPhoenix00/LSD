@@ -1,0 +1,20 @@
+Pravidla:
+#1.Žlutá je za 3 body
+#2.Pokud je žlutých více než 1 neplatí pravidlo 1
+    3.Pokud odevzdáte černou kartu, každé sudé pravidlo má dvojnásobnou bodovou hodnotu
+    4.1 bílá + 1 černá = 1 bod
+5.1 červená + 1 zelená = 1 bod
+    6.Dvě karty jedné barvy jsou 1 bod
+            7.Pokud mají všechny karty stejnou barvu = 8 bodů a neplatí pravidlo 6
+            8.Pravidlo 7 neplatí pro studené barvy
+9.1 modrá + 1 bílá = 1 bod
+    10.1 zelená + 1 hnědá = 1 bod
+11.1 bílá + 1 červená = 2 body
+    12.1 zelená + 1 černá = 1 bod
+13.1 červená + 1 bílá + 1 modrá = 1 bod
+    14.1 zelená + 1 černá = 1 bod
+15.2 fialové + 1 hnědá = 2 body
+19.1 fialová + 1 žlutá = 1 bod
+21.1 modrá + 1 hnědá + 1 fialová = 1 bod
+    22.Každé pravidlo lze použít opakovaně ne ale na stejnou kartu
+    24.Kombinace všech barev = 1 bod
