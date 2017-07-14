@@ -1,33 +1,36 @@
 karty = []
-body.append(int(input()))
+body = []
 dalsi = input()
 while dalsi != "0":
     karty.append(dalsi)
     dalsi = input()
 # print(karty)
 karty.sort()
-pocet = 0
+
 
 def jedna():
+    pocet = 3
     for i, prvek in enumerate(karty):
         if prvek == "zl":
             if i+1 == len(karty):
-                global pocet
-                pocet = 3
+                global body
+                pocet.append(body)
                 break
             elif karty[i+1] == "zl":
                 break
             else:
-                global pocet
-                pocet = 3
+                global body
+                pocet.append(body)
 
 
 def pet():
     print()
+
+def sestnact():
+    body.append(int(2))
+
 jedna()
-body = body + pocet
-pocet = 0
+
 pet()
-body = body + pocet
-pocet = 0
+sestnact()
 print(body)
